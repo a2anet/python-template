@@ -11,7 +11,7 @@ requires-python = ">=3.13"
 license = "Apache-2.0"
 keywords = ["keyword1", "keyword2", "keyword3"]
 authors = [
-  { name = "Your Name", email = "your.email@example.com" },
+  { name = "A2A Net", email = "hello@a2anet.com" },
 ]
 classifiers = [
   "Development Status :: 4 - Beta",
@@ -31,9 +31,9 @@ dev = [
 ]
 
 [project.urls]
-Documentation = "https://github.com/yourusername/your-repo#readme"
-Issues = "https://github.com/yourusername/your-repo/issues"
-Source = "https://github.com/yourusername/your-repo"
+Documentation = "https://github.com/A2ANet/python-template#readme"
+Issues = "https://github.com/A2ANet/python-template/issues"
+Source = "https://github.com/A2ANet/python-template"
 
 [tool.hatch.version]
 path = "src/package_name/__about__.py"
