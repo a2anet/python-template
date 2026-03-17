@@ -36,7 +36,7 @@ Issues = "https://github.com/A2ANet/python-template/issues"
 Source = "https://github.com/A2ANet/python-template"
 
 [tool.hatch.version]
-path = "src/package_name/__about__.py"
+path = "src/your_package_name/__about__.py"
 
 [tool.ruff]
 target-version = "py313"

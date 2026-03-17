@@ -60,14 +60,14 @@ strict = true
 2. Rename the package directory:
 
 ```bash
-mv src/package_name src/new_package_name
+mv src/your_package_name src/new_your_package_name
 ```
 
 3. Update the following files with your package name:
 
    - `pyproject.toml`: Update `name`, `authors`, `project.urls`, and `tool.hatch.version.path`
    - `release-please-config.json`: Update `package-name` and `extra-files` path
-   - `src/new_package_name/__init__.py`: Update import
+   - `src/new_your_package_name/__init__.py`: Update import
    - `tests/test_version.py`: Update import
 
 4. Initialise the project:
@@ -234,7 +234,7 @@ your-project/
 │       ├── ci.yml              # Lint, typecheck, test
 │       └── release-please.yml  # Automated releases + PyPI publishing
 ├── src/
-│   └── package_name/
+│   └── your_package_name/
 │       ├── __init__.py
 │       └── __about__.py        # Version (updated by release-please)
 ├── tests/

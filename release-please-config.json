@@ -6,7 +6,7 @@
             "package-name": "your-package-name",
             "changelog-path": "CHANGELOG.md",
             "extra-files": [
-                "src/package_name/__about__.py"
+                "src/your_package_name/__about__.py"
             ]
         }
     }
