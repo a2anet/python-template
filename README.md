@@ -70,19 +70,28 @@ mv src/your_package_name src/new_your_package_name
    - `src/new_your_package_name/__init__.py`: Update import
    - `tests/test_version.py`: Update import
 
-4. Initialise the project:
+4. Install dependencies:
 
 ```bash
-uv sync
+make install
 ```
 
-5. Run the checks:
+5. Install the local git hooks:
 
 ```bash
-uv run ruff check .
-uv run ruff format --check .
-uv run mypy .
-uv run pytest
+make install-hooks
+```
+
+6. Run the checks:
+
+```bash
+make ci
+```
+
+7. Auto-fix formatting before committing when needed:
+
+```bash
+make fix
 ```
 
 ### CI/CD
