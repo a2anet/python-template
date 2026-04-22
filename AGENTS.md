@@ -13,7 +13,3 @@ Add high-level coding guidelines and review notes to this file. Specific actiona
 ## Engineering Guidelines
 
 - Constants and utility functions should be kept in a constants or utility file if used by more than one class. Otherwise they should be in the class.
-
-## Template Specifics
-
-- Python template changes should preserve the `uv`, `ruff`, and `mypy` workflow.
